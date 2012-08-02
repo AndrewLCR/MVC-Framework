@@ -17,7 +17,7 @@ define("DIR_HLP", "lib/helper/");
 
 // CONFIGURACION DE URL
 define("SITE_PROT", "http");
-define("SITE_URL", SITE_PROT . "://" . $_SERVER['HTTP_HOST'] . "/Cube/");
+define("SITE_URL", SITE_PROT . "://" . $_SERVER['HTTP_HOST'] . "/");
 define("DIR_INC", $_SERVER['DOCUMENT_ROOT'] . "/Cube/app/view/includes/");
 define("REQUEST_URI", $_SERVER['REQUEST_URI']);
 

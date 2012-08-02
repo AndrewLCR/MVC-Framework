@@ -8,7 +8,7 @@ class Dispatcher {
         //$url = explode('/', $_SERVER['REQUEST_URI']);
         $url = explode('/', trim($_SERVER['REQUEST_URI'], "/"));
 
-        array_shift($url);
+        //array_shift($url);
 
         $controller = !empty($url[0]) ? ucfirst($url[0]) . 'Controller' : 'IndexController';
 

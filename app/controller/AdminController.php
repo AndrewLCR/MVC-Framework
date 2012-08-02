@@ -10,15 +10,8 @@ class AdminController extends Controller {
     }
 
     public function index() {
-        
-        $filas = $this->admin_model->ObtenerFilas();
 
-        $view = new View('admin');
-        $view->titulo = 'Cube CMS Administration';
-        $view->mensaje = 'Ingrese sus datos';
-        $view->filas = $filas;
-
-        echo $view->display();
+        echo "estoy en admin";
     }
 
 }

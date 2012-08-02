@@ -10,7 +10,7 @@
             <div id="content_wrapper">
                 <form id="admin_login">
                     <label for="username">Username:</label>
-                    <input name="username" type="text" />
+                    <input name="username" type="text" id="username" />
                 </form>
             </div>
         </div>
