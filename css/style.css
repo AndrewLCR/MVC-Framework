@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: Arial;
+    color: #83C948;
+}
+
+#main_content {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#content_wrapper {
+
+}
+
+#main_menu {
+    width: 1100px;
+    height: 30px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+#main_menu li {
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
